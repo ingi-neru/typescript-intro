@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "outDir": "../",
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "exclude": ["node_modules", "./*.ts", "__test__"]
+}

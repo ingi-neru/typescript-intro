@@ -1,0 +1,13 @@
+{
+    "name": "l2_ts",
+    "version": "1.0.0",
+    "description": "intro to typescript",
+    "main": "main.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon src/index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Laszlo Kazmer",
+    "license": "ISC"
+}
